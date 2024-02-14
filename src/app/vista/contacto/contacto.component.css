@@ -1,0 +1,121 @@
+@media screen and (min-width: 400px) and (max-width: 748px) {
+  .contacto{
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .margin-contacto{
+    margin-top: 50px !important;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 398px){
+  .contacto{
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .margin-contacto{
+    margin-top: 50px !important;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 998px){
+  .contacto{
+    max-width: 100% !important;
+    margin-top: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .font-section{
+    font-size: 38px !important;
+    line-height: 40px !important;
+  }
+  .back{
+    margin-left: 1em !important;
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1198px){
+  .contacto{
+    margin-left: auto !important;
+  }
+  .back{
+    width: 70% !important;
+  }
+  .font-section{
+    font-size: 38px !important;
+    line-height: 42px !important;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1448px){
+  .contacto{
+    max-width: 1320px !important;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+  }
+  .font-section{
+    font-size: 40px !important;
+    line-height: 40px !important;
+  }
+  .back{
+    width: 70% !important;
+  }
+}
+
+.contacto{
+  max-width: 1700px;
+  min-height: 80vh;
+  margin-left: 94px;
+  margin-right: 76px;
+}
+.section-contacto{
+  background: url("src/assets/img/building/section2.png") center center no-repeat;
+  /*height: 807px;*/
+  background-size: cover;
+}
+.column-1{
+  margin-top: 78px;
+  background: none;
+  min-height: 80vh;
+  border-radius: 15px 0px 0px 15px;
+}
+.margin-contacto{
+  margin-top: 100px;
+  padding-left: 0 !important;
+}
+.font-contacto{
+  font-size: 18px;
+  color: black;
+}
+.btn-contacto{
+  border: 2px solid #176F44;
+  box-sizing: border-box;
+  border-radius: 15px;
+  width: 190px;
+  font-size: 18px;
+  height: 61px;
+}
+.btn-contacto:hover{
+  background: #176F44;
+  border: 2px solid white;
+  color: white;
+}
+.space-between{
+  margin-top: 28px;
+  margin-bottom: 35px;
+}
+.back{
+   z-index: 50;
+   margin-top: -7em;
+   margin-left: 4em;
+ }
+.encima{
+  position: relative;
+  z-index: 100;
+}
+.inputs{
+  border: 0;
+  background: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.53);
+}
+.column-2{
+  margin-top: 78px;
+  border-radius: 0px 15px 0px 0px;
+}

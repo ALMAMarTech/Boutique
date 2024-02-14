@@ -1,0 +1,166 @@
+/*Import animate css*/
+@import "~animate.css/animate.min.css";
+@font-face {
+  font-family: 'NeutralFace';
+  src: url("assets/fonts/NeutralFace.otf");
+}
+.bg-menu{
+  background: #176F44;
+}
+@font-face {
+  font-family: 'Akkurat-Bold';
+  src: url("assets/fonts/Akkurat-Bold.ttf");
+}
+@font-face {
+  font-family: 'AkkuratPro-Regular';
+  src: url("assets/fonts/AkkuratPro-Regular.otf");
+}
+@font-face {
+  font-family: 'NeutralFace-Bold';
+  src: url("assets/fonts/NeutralFace-Bold.otf");
+}
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url("assets/fonts/OpenSans-Light.ttf");
+}
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url("assets/fonts/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: 'Open Sans Medium';
+  src: url("assets/fonts/OpenSans-Medium.ttf");
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url("assets/fonts/OpenSans-Regular.ttf");
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav{
+  margin-top: 25px;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots{
+  margin-top: 25px;
+}
+@media screen and (min-width: 400px) and (max-width: 748px) {
+  .owl-theme .owl-dots, .owl-theme .owl-nav{
+    margin-top: 15px !important;
+  }
+
+  .owl-theme .owl-nav.disabled+.owl-dots{
+    margin-top: 15px !important;
+  }
+}
+*{
+  font-family: 'Open Sans Light', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.font-section{
+  font-family: 'NeutralFace', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 61px;
+  color: #FFFFFF;
+}
+.font-modal{
+  font-family: 'Open Sans Bold', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 61px;
+  color: #FFFFFF;
+}
+.font-aviso{
+  font-family: 'AkkuratPro-Regular', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 61px;
+  color: #CFA226;
+}
+.font-aviso-subtitle{
+  font-family: 'AkkuratPro-Regular', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 61px;
+  color: #CFA226;
+}
+.font-menu{
+  font-family: 'AkkuratPro-Regular', serif;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 28px !important;
+  text-align: center !important;
+  color: #FFFFFF !important;
+}
+.font-title{
+  font-family: 'Neutral Face', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  color: #000000;
+}
+.font-subtitle{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 49px;
+  color: #FFFFFF;
+}
+.font-span{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  color: #FFFFFF;
+}
+
+.font-table{
+  font-family: 'Akkurat-Bold', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+}
+.font-dinamic{
+  font-family: 'Akkurat-Bold', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 10px;
+  /* identical to box height */
+  color: #FFFFFF;
+}
+
+.font-bold{
+  font-family: 'Open Sans Bold', serif !important;
+}
+.font-td{
+  font-family: 'AkkuratPro-Regular', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 2em;
+  /* or 18px */
+  text-align: center;
+  color: #FFFFFF;
+}
+body{
+  overflow-x: hidden;
+}
+@media screen and (max-width:798px ) {
+  body{
+    overflow-x: hidden !important;
+  }
+}

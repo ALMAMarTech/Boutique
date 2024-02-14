@@ -1,0 +1,518 @@
+<app-menu></app-menu>
+<section class="section1">
+<div class="container-fluid">
+  <div class="row mb-4">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-12 col-lg-6" id="calculator">
+          <p class="font-section">
+            Calcúla tus <br>
+            beneficios </p>
+          <p class="width mt-5">
+            Elige el plan de inversión que más te convenga
+            y descubre los beneficios que obtendrás al invertir
+            en Boutique Ecochic Town y sus planes de Building Town System.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row fondito">
+    <div class="col-md-3 col-sm-12 ">
+      <div class="row">
+        <div class="caja">
+          <div class="col-md-8 borde-interno">
+            <label for="esquema" class="form-label font-contacto ">Esquema</label><br>
+            <div class="mini-espacio">
+              <select name="btn-group" id="esquema" class="form-select" (change)="selection()">
+                <option value="1" selected class="text-black">Microinversión</option>
+                <option value="2" class="text-black">Coinversión</option>
+                <option value="3" class="text-black">Premium</option>
+              </select>
+            </div>
+            <div class="mini-espacio" id="m1">
+              <label for="enganche" class="form-label font-contacto">Enganche</label><br>
+            <div class="mini-espacio">  <input type="radio" id="enganche" name="enganche" checked  value="20%">&nbsp;
+              <span class="text-black">20%</span>
+            </div>
+            </div>
+            <div class="mini-espacio d-none" id="co1">
+              <label for="tipo" class="form-label font-contacto">Tipo</label><br>
+              <div class="mini-espacio">
+                <input type="radio" id="tipo" name="tipo" value="1" (change)="change()">&nbsp;
+                <span class="text-black">Rentabilidad</span>
+              </div>
+              <div class="mini-espacio">
+                <input type="radio" id="tipo1" name="tipo" value="2" (change)="change()">&nbsp;
+                <span class="text-black">Building Town System</span>
+              </div>
+            </div>
+            <div class="min-espacio d-none" id="pre1">
+              <label for="tipo" class="form-label font-contacto">Tipo</label><br>
+              <div class="mini-espacio">
+                <input type="radio" id="tipo2" name="tipo1"  value="11" (change)="change1()">
+                <span class="text-black">Rentabilidad</span>
+              </div>
+              <div class="mini-espacio">
+                <input type="radio" id="tipo3" name="tipo1" value="22" (change)="change1()">&nbsp;
+                <span class="text-black">Building Town System</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="contedor" id="m2">
+            <div class="mini-espacio">
+              <p class="font-dinamic">Cuota administrativa</p>
+              <p class="">$500.00 mxn</p>
+            </div>
+            <div class="mini-espacio">
+              <p class="font-dinamic">Mensualidades</p>
+              <p class="">12 de $650.00 mxn</p>
+            </div>
+          </div>
+          <div class="contedor d-none" id="co2">
+            <div class="mini-espacio ">
+              <p class="font-dinamic">20% de enganche</p>
+              <p>$ 10,800.00 mxn</p>
+            </div>
+            <div class="mini-espacio ">
+              <p class="font-dinamic">Cuota administrativa</p>
+              <p>$ 500.00 mxn</p>
+            </div>
+            <div class="mini-espacio ">
+              <p class="font-dinamic">Mensualidades</p>
+              <p>12 de 650 mxn</p>
+            </div>
+          </div>
+          <div class="contedor d-none" id="co2.1">
+            <div class="mini-espacio ">
+              <p class="font-dinamic">
+                30% Enganche
+              </p>
+              <p>$ 18,000.00 mxn</p>
+            </div>
+            <div class="mini-espacio ">
+              <p class="font-dinamic">4 Mensualidades</p>
+              <p>$ 5,666.67 mxn</p>
+            </div>
+            <div class="mini-espacio ">
+              <p class="font-dinamic">32 Mensualidades</p>
+              <p>$ 1,166.67 mxn</p>
+            </div>
+          </div>
+          <div class="contedor d-none" id="pre2">
+            <div class="mini-espacio ">
+              <p class="font-dinamic">Enganche acelerado</p>
+              <p>$132,650.00 mxn</p>
+              <p>35 mensualidades</p>
+              <p>$8,690.00</p>
+            </div>
+            <div class="mini-espacio ">
+              <p class="font-dinamic">Enganche diferido
+                Mensualidades</p>
+              <p>1 $27,050.00 mxn</p>
+              <p>3 $33,650.00 mxn</p>
+              <p>8 $15,650.00 mxn</p>
+              <p>24 $9,650.00 mxn</p>
+            </div>
+            <div class="mini-espacio ">
+              <p class="font-dinamic">%0 Enganche
+                Mensualidades</p>
+              <p>1 $16,383.33 mxn</p>
+              <p>35   $13,383.33 mxn</p>
+            </div>
+          </div>
+          <div class="contedor d-none" id="pre2.1">
+            <div class="mini-espacio">
+              <p class="font-dinamic">30% de enganche</p>
+              <p>$144,000.00 mxn</p>
+            </div>
+            <div class="mini-espacio">
+              <p class="font-dinamic">4 Mensualidades</p>
+              <p>$28,000.00 mxn</p>
+            </div>
+            <div class="mini-espacio">
+              <p class="font-dinamic">8 Mensualidades
+                </p>
+              <p>$10,000.00 mxn</p>
+            </div>
+            <div class="mini-espacio ">
+              <p class="font-dinamic">72 Mensualidades</p>
+              <p>$1,166.67 mxn</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9 col-sm-12 mt-lg-5 table-responsive-sm">
+      <table class="table my-5" id="m3">
+        <thead>
+        <tr>
+          <th scope="col" class="text-center font-table">Año</th>
+          <th scope="col" class="text-center font-table">Base acomulada</th>
+          <th scope="col" class="text-center font-table">%PlusValía anual</th>
+          <th scope="col" class="text-center font-table">Plusvalía anual</th>
+          <th scope="col" class="text-center font-table">Plusvalía anual acomulada</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row" class="text-center font-td">1</th>
+          <td class="text-center font-td">$9,000.00</td>
+          <td class="text-center  font-td">20%</td>
+          <td class="text-center  font-td">$1,800.00</td>
+          <td class="text-center  font-td">$10,800.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">2</th>
+          <td class="text-center font-td">$10,800.00</td>
+          <td class="text-center font-td">23%</td>
+          <td class="text-center font-td">$2,484.00</td>
+          <td class="text-center font-td">$13,248.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">3</th>
+          <td class="text-center font-td">$13,284.00</td>
+          <td class="text-center font-td">25%</td>
+          <td class="text-center font-td">$3,321.00</td>
+          <td class="text-center font-td">$16,605.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">4</th>
+          <td class="text-center font-td">$16,605.00</td>
+          <td class="text-center font-td">28%</td>
+          <td class="text-center font-td">$4,649.40</td>
+          <td class="text-center font-td">$21,254.40</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">5</th>
+          <td class="text-center font-td">$21,254.40</td>
+          <td class="text-center font-td">30%</td>
+          <td class="text-center font-td">$6,376.32</td>
+          <td class="text-center font-td">$27,630.72</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">6</th>
+          <td class="text-center font-td">$27,630.72</td>
+          <td class="text-center font-td">33%</td>
+          <td class="text-center font-td">$9,118.14</td>
+          <td class="text-center font-td">$36,748.86</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">7</th>
+          <td class="text-center font-td">$36,748.86</td>
+          <td class="text-center font-td">36%</td>
+          <td class="text-center font-td">$13,251.15</td>
+          <td class="text-center font-td">$50,000.00</td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr class="">
+          <td class="text-center" colspan="5">
+              <button (click)="abrirModal()" class="btn btn-contacto text-white">Descarga nuestro brochure</button>
+          </td>
+        </tr>
+        </tbody>
+
+      </table>
+      <table class="table my-5 d-none" id="co3">
+        <thead>
+        <tr>
+          <th scope="col" class="text-center font-table">Año</th>
+          <th scope="col" class="text-center font-table">Base acomulada</th>
+          <th scope="col" class="text-center font-table">%PlusValía anual</th>
+          <th scope="col" class="text-center font-table">Plusvalía anual</th>
+          <th scope="col" class="text-center font-table">Plusvalía anual acomulada</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row" class="text-center font-td">1</th>
+          <td class="text-center font-td">$60,000.00</td>
+          <td class="text-center  font-td">20%</td>
+          <td class="text-center  font-td">$12,000.00</td>
+          <td class="text-center  font-td">$72,000.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">2</th>
+          <td class="text-center font-td">$72,000.00</td>
+          <td class="text-center font-td">23%</td>
+          <td class="text-center font-td">$16,560.00</td>
+          <td class="text-center font-td">$88,560.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">3</th>
+          <td class="text-center font-td">$88,560.00</td>
+          <td class="text-center font-td">25%</td>
+          <td class="text-center font-td">$22,140.00</td>
+          <td class="text-center font-td">$110,700.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">4</th>
+          <td class="text-center font-td">$110,700.00</td>
+          <td class="text-center font-td">28%</td>
+          <td class="text-center font-td">$30,996.00</td>
+          <td class="text-center font-td">$141,696.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">5</th>
+          <td class="text-center font-td">$141,696.00</td>
+          <td class="text-center font-td">30%</td>
+          <td class="text-center font-td">$42,508.82</td>
+          <td class="text-center font-td">$181,204.80</td>
+        </tr>
+
+        <tr>
+          <th class="text-center font-td" scope="row">6</th>
+          <td class="text-center font-td">$184,204.80</td>
+          <td class="text-center font-td">33%</td>
+          <td class="text-center font-td">$60,787.58</td>
+          <td class="text-center font-td">$244,992.38</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">7</th>
+          <td class="text-center font-td">$244,992.38</td>
+          <td class="text-center font-td">35%</td>
+          <td class="text-center font-td">$85,007.62</td>
+          <td class="text-center font-td">$330,000.00</td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr class="">
+          <td class="text-center" colspan="5">
+            <button (click)="abrirModal1()" class="btn btn-contacto text-white">Descarga nuestro brochure</button>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <table class="table my-5 d-none" id="co3.1">
+        <thead>
+        <tr>
+          <th scope="col" class="text-center font-table">Año</th>
+          <th scope="col" class="text-center font-table">Base acomulada</th>
+          <th scope="col" class="text-center font-table">%PlusValía anual</th>
+          <th scope="col" class="text-center font-table">Plusvalía anual</th>
+          <th scope="col" class="text-center font-table">Plusvalía anual acomulada</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row" class="text-center font-td">1</th>
+          <td class="text-center font-td">$60,000.00</td>
+          <td class="text-center  font-td">20%</td>
+          <td class="text-center  font-td">$12,000.00</td>
+          <td class="text-center  font-td">$72,000.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">2</th>
+          <td class="text-center font-td">$72,000.00</td>
+          <td class="text-center font-td">25%</td>
+          <td class="text-center font-td">$18,000.00</td>
+          <td class="text-center font-td">$90,000.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">3</th>
+          <td class="text-center font-td">$90,000.00</td>
+          <td class="text-center font-td">30%</td>
+          <td class="text-center font-td">$27,000.00</td>
+          <td class="text-center font-td">$117,000.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">4</th>
+          <td class="text-center font-td">$117,000.00</td>
+          <td class="text-center font-td">35%</td>
+          <td class="text-center font-td">$40,950.00</td>
+          <td class="text-center font-td">$157,950.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">5</th>
+          <td class="text-center font-td">$157,950.00</td>
+          <td class="text-center font-td">40%</td>
+          <td class="text-center font-td">$63,180.82</td>
+          <td class="text-center font-td">$211,130.00</td>
+        </tr>
+
+        <tr>
+          <th class="text-center font-td" scope="row">6</th>
+          <td class="text-center font-td">$211,130.00</td>
+          <td class="text-center font-td">45%</td>
+          <td class="text-center font-td">$99,508.50</td>
+          <td class="text-center font-td">$320,638.50</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">7</th>
+          <td class="text-center font-td">$320,638.50</td>
+          <td class="text-center font-td">50%</td>
+          <td class="text-center font-td">$159,361.50</td>
+          <td class="text-center font-td">$480,000.00</td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr class="">
+          <td class="text-center" colspan="5">
+            <button (click)="abrirModal1()" class="btn btn-contacto text-white">Descarga nuestro brochure</button>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <table class="table my-5 d-none premium" id="pre3">
+        <thead>
+        <tr>
+          <th scope="col" class="text-center font-table">Año</th>
+          <th scope="col" class="text-center font-table">Base acomulada</th>
+          <th scope="col" class="text-center font-table">%PlusValía anual</th>
+          <th scope="col" class="text-center font-table">Plusvalía anual</th>
+          <th scope="col" class="text-center font-table">Plusvalía anual acomulada</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row" class="text-center font-td">1</th>
+          <td class="text-center font-td">$480,000.00</td>
+          <td class="text-center  font-td">20%</td>
+          <td class="text-center  font-td">$96,000.00</td>
+          <td class="text-center  font-td">$576,000.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">2</th>
+          <td class="text-center font-td">$576,000.00</td>
+          <td class="text-center font-td">23%</td>
+          <td class="text-center font-td">$132,480.00</td>
+          <td class="text-center font-td">$708,480.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">3</th>
+          <td class="text-center font-td">$708,480.00</td>
+          <td class="text-center font-td">25%</td>
+          <td class="text-center font-td">$177,120.00</td>
+          <td class="text-center font-td">$885,600.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">4</th>
+          <td class="text-center font-td">$885,600.00</td>
+          <td class="text-center font-td">28%</td>
+          <td class="text-center font-td">$247,968.00</td>
+          <td class="text-center font-td">$1,133,568.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">5</th>
+          <td class="text-center font-td">$1,133,568.40</td>
+          <td class="text-center font-td">30%</td>
+          <td class="text-center font-td">$340,070.40</td>
+          <td class="text-center font-td">$1,473,638.40</td>
+        </tr>
+
+        <tr>
+          <th class="text-center font-td" scope="row">6</th>
+          <td class="text-center font-td">$1,473,638.40</td>
+          <td class="text-center font-td">33%</td>
+          <td class="text-center font-td">$486,300.67</td>
+          <td class="text-center font-td">$1,959,939.07</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">7</th>
+          <td class="text-center font-td">$1,959,939.07</td>
+          <td class="text-center font-td">35%</td>
+          <td class="text-center font-td">$680,060.93</td>
+          <td class="text-center font-td">$2,640,000.00</td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr class="">
+          <td class="text-center" colspan="5">
+            <button (click)="abrirModal2()" class="btn btn-contacto text-white">Descarga nuestro brochure</button>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <table class="table d-none premium" id="pre3.1">
+        <thead>
+        <tr>
+          <th scope="col" class="text-center font-table">Año</th>
+          <th scope="col" class="text-center font-table">Base acomulada</th>
+          <th scope="col" class="text-center font-table">%PlusValía anual</th>
+          <th scope="col" class="text-center font-table">Plusvalía anual</th>
+          <th scope="col" class="text-center font-table">Plusvalía anual acomulada</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row" class="text-center font-td">1</th>
+          <td class="text-center font-td">$480,000.00</td>
+          <td class="text-center  font-td">20%</td>
+          <td class="text-center  font-td">$96,000.00</td>
+          <td class="text-center  font-td">$576,000.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">2</th>
+          <td class="text-center font-td">$576,000.00</td>
+          <td class="text-center font-td">25%</td>
+          <td class="text-center font-td">$144,000.00</td>
+          <td class="text-center font-td">$720,000.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">3</th>
+          <td class="text-center font-td">$720,000.00</td>
+          <td class="text-center font-td">30%</td>
+          <td class="text-center font-td">$216,000.00</td>
+          <td class="text-center font-td">$936,000.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">4</th>
+          <td class="text-center font-td">$936,000.00</td>
+          <td class="text-center font-td">35%</td>
+          <td class="text-center font-td">$327,600.00</td>
+          <td class="text-center font-td">$1,263,600.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">5</th>
+          <td class="text-center font-td">$1,263,600.00</td>
+          <td class="text-center font-td">40%</td>
+          <td class="text-center font-td">$505,440.82</td>
+          <td class="text-center font-td">$1,769,040.00</td>
+        </tr>
+
+        <tr>
+          <th class="text-center font-td" scope="row">6</th>
+          <td class="text-center font-td">$1,769,040.00</td>
+          <td class="text-center font-td">45%</td>
+          <td class="text-center font-td">$796,068.00</td>
+          <td class="text-center font-td">$2,565,108.00</td>
+        </tr>
+        <tr>
+          <th class="text-center font-td" scope="row">7</th>
+          <td class="text-center font-td">$2,565,108.00</td>
+          <td class="text-center font-td">50%</td>
+          <td class="text-center font-td">$1,274,892.00</td>
+          <td class="text-center font-td">$3,840,000.00</td>
+        </tr>
+        <tr>
+          <td></td>
+        </tr>
+        <tr class="">
+          <td class="text-center" colspan="5">
+            <button (click)="abrirModal2()" class="btn btn-contacto text-white">Descarga nuestro brochure</button>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="text-center d-flex">
+      <div class="col-md-12 space text-center" id="m4">
+        <p style="font-size: 16px;" class="text-center">Seguro de vida en todo el plazo.<br>
+          Inversión máxima asegurada en caso de fallecimiento, la cantidad de $480,000.00 cubierto por seguros AXA durante<br>
+          todo el plazo de 7 años.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<app-contacto></app-contacto>
+<app-modal></app-modal>

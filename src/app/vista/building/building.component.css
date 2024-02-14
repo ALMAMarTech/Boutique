@@ -1,0 +1,318 @@
+/*Media*/
+@media screen and (min-width: 200px) and (max-width: 398px){
+  .cta2{
+    bottom:-8em !important;
+    width: 50%;
+  }
+  #margin{
+    margin-top: 190px !important;
+    margin-left: auto !important;
+  }
+  .tam, .tam1{
+    width: 100% !important;
+  }
+  .row1{
+    margin-right: auto !important;
+  }
+  .row2 {
+    margin-top: 70px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .min{
+    margin-top: 2em;
+  }
+  .contacto{
+    margin-top: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .font-section{
+    font-size: 34px !important;
+    line-height: 40px !important;
+  }
+  .font-title{
+    font-size: 28px !important;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 748px){
+  .cta2{
+    bottom: 7em !important;
+    width: 50%;
+  }
+  .font-section{
+    font-size: 34px !important;
+    line-height: 40px !important;
+  }
+  #margin{
+    margin-top: 190px !important;
+    margin-left: auto !important;
+  }
+  .tam, .tam1{
+    width: 100% !important;
+  }
+  .row1{
+    margin-right: auto !important;
+  }
+  .row2 {
+    margin-top: 70px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .min{
+    margin-top: 2em;
+  }
+  .contacto{
+    margin-top: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 998px) {
+  #margin{
+    width: 90% !important;
+    margin-top: 130px !important;
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+  }
+  .tx{
+    font-size: 40px !important;
+  }
+  .contacto{
+    max-width: 100% !important;
+    margin-top: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .font-section{
+    line-height: 40px !important;
+    font-size: 36px !important;
+  }
+  .back{
+    margin-left: 1em !important;
+    width: 60% !important;
+  }
+  .tam, .tam1{
+    width: 100% !important;
+  }
+  .cta2{
+    bottom: 10em !important;
+    width: 40%;
+  }
+  .section1{
+    min-height: 65vh !important;
+  }
+  .row1{
+    margin-right: 2em !important;
+  }
+  .row2{
+    margin-top: 40px;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1198px) {
+  #margin{
+    margin-left: 70px !important;
+    width: 90% !important;
+    margin-top: 190px !important;
+  }
+  .section1{
+    min-height: 70vh !important;
+  }
+  .cta2{
+    bottom: 8em !important;
+    width: 30% !important;
+  }
+  .min{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+  }
+  .tam,.tam1{
+    width: 100% !important;
+  }
+  .row1{
+    margin-right: 50px !important;
+  }
+  .row2{
+    margin: 60px 50px 40px !important;
+  }
+  .contacto{
+    margin-left: auto !important;
+  }
+  .back{
+    width: 50% !important;
+  }
+  .tx{
+    font-size: 40px !important;
+  }
+  .font-section{
+    font-size: 38px !important;
+    line-height: 40px !important;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1448px) {
+ .section1{
+   min-height: 75vh !important;
+ }
+  .row1{
+    margin-right: 50px !important;
+  }
+  #margin{
+    margin-top: 200px !important;
+    margin-left: 120px !important;
+  }
+  .contacto{
+    max-width: 1320px !important;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+  }
+  .row2{
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+  }
+  .font-section{
+    font-size: 40px !important;
+    line-height: 40px !important;
+  }
+  .back{
+    width: 57% !important;
+  }
+  .tam,.tam1{
+    width: 90% !important;
+  }
+  .cta2{
+    width: 25% !important;
+    bottom: 4em !important;
+  }
+  .min{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+  }
+}
+@media screen and (min-width: 1450px) and (max-width: 1900px){
+  .tam, .tam1{
+    width: 90% !important;
+  }
+  #margin{
+    margin-left: 100px !important;
+    margin-top: 210px !important;
+  }
+  .section1{
+    min-height: 75vh !important;
+  }
+  .cta2{
+    bottom: 6.1em !important;
+    width: 20% !important;
+  }
+  .back{
+    width: 70% !important;
+  }
+}
+/**/
+.tam{
+  width: 50%;
+}
+.tam1{
+  width: 75%;
+}
+.section1{
+  background: url("src/assets/img/building/section1.png") center center no-repeat;
+  background-size:cover ;
+  min-height: 80vh;
+}
+#margin{
+  margin-top: 240px;
+  margin-left: 125px;
+}
+.cta2{
+  position: absolute;
+  bottom: 5em;
+  z-index: 101;
+  left: 7%;
+}
+.section2{
+  background: url("src/assets/img/building/section2.png") center center no-repeat;
+  background-size: cover;
+  min-height: 80vh;
+}
+.section-option{
+  margin-top: 159px;
+}
+.row2{
+  margin-top: 40px;
+  margin-left: 125px;
+  margin-right: 131px;
+}
+.rsp{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.rsp1{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.row1{
+  margin-right: 149px;
+}
+/*contacto*/
+.contacto{
+  max-width: 1700px;
+  min-height: 80vh;
+  margin-left: 94px;
+  margin-right: 76px;
+}
+.column-1{
+  border-radius: 15px 0px 0px 15px;
+  min-height: 80vh;
+}
+.column-2{
+  border-radius: 0px 15px 0px 0px;
+  padding-left: 0 !important;
+  min-height: 80vh;
+}
+.encima{
+  z-index: 100;
+  position: relative;
+}
+.back{
+  z-index: 50;
+  margin-top: -1em;
+  margin-left: 4em;
+  width: 70%;
+}
+.margin-contacto{
+  margin-top: 100px;
+  padding-left: 0 !important;
+}
+.font-contacto{
+  font-size: 18px;
+  color: black;
+}
+.btn-contacto{
+  border: 2px solid #176F44;
+  box-sizing: border-box;
+  border-radius: 15px;
+  width: 190px;
+  font-size: 18px;
+  height: 61px;
+}
+.btn-contacto:hover{
+  background: #176F44;
+  border: 2px solid white;
+  color: white;
+}
+.space-between{
+  margin-top: 28px;
+  margin-bottom: 35px;
+}
+.inputs{
+  border: 0;
+  background: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.53);
+}

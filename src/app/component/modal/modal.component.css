@@ -1,0 +1,161 @@
+.abrirModal {
+  background-color: #dadadadb;
+  position: fixed;
+  top: 40px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  overflow: auto;
+}
+.letra{
+  font-size: 28px !important;
+  line-height: 30px !important;
+}
+@media screen and (min-width: 2100px){
+  .abrirModal{
+    top: 0 !important;
+  }
+  .letra{
+    font-size: 24px !important;
+    line-height: 26px !important;
+  }
+}
+.imagen{
+  background: url("src/assets/img/proyectos/Popup-02.png") center center no-repeat;
+  background-size: cover;
+}
+.btn-contacto{
+  border: 2px solid white;
+  background: #FFFFFF;
+  color: #294A4D;
+  box-sizing: border-box;
+  border-radius: 15px;
+  width: 190px;
+  font-size: 18px;
+  height: 61px;
+}
+.btn-contacto:hover{
+  background: #176F44;
+  border: 2px solid white;
+  color: white;
+}
+.dimension{
+  margin-top: 500px;
+}
+.modal-content {
+  background-color: transparent !important;
+  border: none !important;
+}
+.modal-dialog{
+  max-width: 850px !important;
+  min-height: 100vh !important;
+}
+.fondo{
+  background: #294A4D;
+  border-radius: 5px;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+}
+.modal-header {
+  border: none !important;
+}
+
+.modal-body {
+  border: none !important;
+  padding: 0 !important;
+}
+.lateral{
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.modal-footer {
+  border: none !important;
+}
+
+.animacion {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+}
+
+.fadeOut {
+  animation-name: fadeOut;
+  -webkit-animation-name: fadeOut;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
+
+.modal {
+  display: block;
+  position: absolute;
+}
+
+.modal-dialog-scrollable .modal-body {
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.46);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7b7b7b;
+}

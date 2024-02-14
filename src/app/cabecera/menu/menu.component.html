@@ -1,0 +1,35 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-light"  id="nav" >
+  <div class="container-fluid my-2">
+    <a [routerLink]="['/home']"  id="brand" class="navbar-brand mx-lg-3">
+      <img src="assets/img/BoutiqueEctownwhite%202.png" alt="" class="img-fluid w-50">
+    </a>
+    <button type="button" class="navbar-toggler" data-bs-target="#navbar" data-bs-toggle="collapse"
+            aria-controls="navbar" aria-expanded="false" aria-label="Toggle Navbar">
+      <span class="navbar-toggler-icon" ></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+      <div class="mx-auto"></div>
+      <ul class="navbar-nav text-end mx-5" id="lista">
+        <li>
+          <a [routerLink]="['/home']" routerLinkActive="active" class=" nav-link px-md-3  font-menu">Inicio</a>
+        </li>
+        <li>
+          <a [routerLink]="['/cancun']" routerLinkActive="active" class="nav-link px-md-3 text-white font-menu">Cancún</a>
+        </li>
+        <li>
+          <a [routerLink]="['/celestun']"  routerLinkActive="active" class=" nav-link px-md-3 text-white font-menu">Celestún</a>
+        </li>
+        <li>
+          <a [routerLink]="['/planes']"  routerLinkActive="active" class=" nav-link px-md-3 text-white font-menu">Planes de inversión</a>
+        </li>
+        <li>
+          <a [routerLink]="['/se-boutique']"  routerLinkActive="active" class=" nav-link px-md-3 text-white font-menu">Vende Boutique</a>
+        </li>
+        <li>
+          <a [routerLink]="['/home']" fragment="contacto"   class=" nav-link px-md-3 text-white contacto font-menu">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+

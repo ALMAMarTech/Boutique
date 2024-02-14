@@ -1,0 +1,23 @@
+<nav>
+  <input type="checkbox" id="check">
+  <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+  </label>
+  <a href="#" class="enlace">
+    <img src="assets/img/BoutiqueEctownwhite%202.png" alt="" class="logo img-fluid w-50">
+  </a>
+  <ul class="navbar-nav text-end mx-5" id="lista">
+    <li>
+      <a [routerLink]="['/home']" routerLinkActive="active" class=" nav-link px-md-3  font-menu">Inicio</a>
+    </li>
+    <li>
+      <a [routerLink]="['/building']" routerLinkActive="active" class="nav-link px-md-3 text-white font-menu">Invierte en Boutique</a>
+    </li>
+    <li>
+      <a [routerLink]="['/partners']"  routerLinkActive="active" class=" nav-link px-md-3 text-white font-menu d-none">Partners</a>
+    </li>
+    <li>
+      <a [routerLink]="['/home']" fragment="contacto"   class=" nav-link px-md-3 text-white contacto font-menu">Contacto</a>
+    </li>
+  </ul>
+</nav>
